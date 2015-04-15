@@ -1,0 +1,18 @@
+//
+// Estilos para la navegación
+//
+
+.nav-main{
+	width: 66%;
+	li {
+		display: inline-block;
+		padding: 1%;
+	}
+	li:hover {
+		background-color: $hover;
+	}
+	a {
+		color: $texto-blanco;
+		@include font-size(16);
+	}
+}

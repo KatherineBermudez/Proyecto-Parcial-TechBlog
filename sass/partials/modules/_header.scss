@@ -1,0 +1,36 @@
+//
+// Estilos del header
+//
+
+.header-main{
+	background: $background-header;
+	color: $texto-blanco;
+	height: 30em;
+  width: 100%
+}
+
+.header-logo{
+	font-family: $sans;
+	padding-top: 40px;
+}
+
+.header-content {
+	margin: 0 auto;
+	max-width: $max-width;
+}
+
+.header-rrss{
+	float: right;
+	margin-top: 4em;
+	ul {
+		display: inline-block;
+		margin-top: 36px
+	}
+	li {
+		display: inline-block;
+	}
+	span {
+		color: #fff;
+		margin-right: 2em;
+	}
+}

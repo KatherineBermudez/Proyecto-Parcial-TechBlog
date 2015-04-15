@@ -1,0 +1,63 @@
+//Estilos de las secciones del sitio
+
+.sections{
+	padding-top: 2em;
+}
+
+.subscribe-section {
+	padding-bottom: 1em;
+	input {
+		background-color: #D4D4D4;
+		border: none;
+		padding: 1%;
+		width: 15em;
+    }
+    button {
+    	background-color: #29AEDE;
+        border: none;
+        color: #fff;
+        padding: 1%;
+    }
+    p {
+    	@include font-size(8);
+    }
+}
+
+.more-popular-section {
+	li {
+		border-bottom: 1px solid black;
+		padding: 1.2% 0;
+    }
+    a {
+    	color: #000;
+    	@include font-size(12);
+    }
+}
+
+.publicity-section {
+  height: 24em;
+  padding-top: 2em;
+  .publicity-content {
+    background-color: #D4D4D4;
+    height: 14rem;
+    float: left;
+    width: 20rem;
+  }
+}
+
+.more-news-section {
+	li {
+		border-bottom: 1px solid black;
+        padding: 1% 0;
+        span {
+        	color: #FF7708;
+        	display: block;
+        	padding-top: 1%; 
+        	@include font-size(14);
+        }
+    }
+    a {
+    	color: #000;
+    	@include font-size(14);
+    }
+}
